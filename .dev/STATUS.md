@@ -1,11 +1,11 @@
 # Project Status
 
 ## Active Package
-- **Package:** BP-06 Decision Points
-- **Branch:** bp/06-decision-points
-- **Status:** in_progress
-- **Progress:** 4/4 tasks
-- **Mode:** autopilot
+- **Package:** None
+- **Branch:** main
+- **Status:** initialized
+- **Progress:** —
+- **Mode:** —
 
 ## Last Session
 - **Date:** 2026-03-22
@@ -22,7 +22,7 @@
 | BP-03 | Product Interview | done | 5/5 tasks |
 | BP-04 | Spec Writing | done | 4/4 tasks |
 | BP-05 | Build Package Generation | done | 6/6 tasks |
-| BP-06 | Decision Points | in_progress | 4/4 tasks |
+| BP-06 | Decision Points | review | 4/4 tasks |
 | BP-07 | Project Scaffold | not_started | 0/14 tasks |
 | BP-08 | Progress Tracking + Parked Items | not_started | 0/7 tasks |
 | BP-09 | Build Guidance | not_started | 0/6 tasks |

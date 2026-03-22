@@ -10,8 +10,8 @@ PM identifies decisions that must be resolved before building and walks the user
 autopilot
 
 ## Deliverables
-- [ ] commands/plan.md — decision point phase added after packages
-- [ ] Decision detection logic in skills/package-generation/SKILL.md
+- [x] commands/plan.md — decision point phase added after packages
+- [x] Decision detection logic in skills/package-generation/SKILL.md
 
 ## Tasks
 1. Implement decision detection from spec and packages
@@ -36,9 +36,9 @@ Present as table with options and which package needs it. Resolve one at a time 
 Decision tracking over project lifetime (that's `/pm:decide`).
 
 ## Status
-- **State:** in_progress
+- **State:** review
 - **Progress:** 4/4 tasks
 - **Branch:** bp/06-decision-points
 - **Started:** 2026-03-22
-- **Completed:** —
+- **Completed:** 2026-03-22
 - **Issue:** #11
