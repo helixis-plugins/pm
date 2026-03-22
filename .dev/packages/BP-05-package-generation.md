@@ -51,9 +51,9 @@ Package format matches `dev` plugin exactly. File naming: `BP-XX-short-name.md`.
 Creating files on disk, decision resolution.
 
 ## Status
-- **State:** review
+- **State:** done
 - **Progress:** 6/6 tasks
-- **Branch:** bp/05-package-generation
+- **Branch:** merged
 - **Started:** 2026-03-22
 - **Completed:** 2026-03-22
 - **Issue:** #9

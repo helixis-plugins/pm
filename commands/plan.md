@@ -74,9 +74,34 @@ After spec approval, use the **package-generation** skill:
 11. On approval: "Packages approved. [N] MVP + [M] post-MVP."
 12. Hold packages in memory — written to `.dev/packages/` during scaffolding
 
-**Phase 4: Decision Points** (implemented in BP-06)
+**Phase 4: Decision Points**
 
-After packages are approved, identify and resolve decision points.
+After packages are approved, scan the spec and packages for unresolved decisions:
+
+1. Scan for decision triggers:
+   - Multiple database options viable (e.g., "SQLite or Postgres")
+   - Deployment target unspecified
+   - Auth approach unclear
+   - Email/notification provider needed
+   - Domain name needed
+   - API alternatives exist
+   - User said "recommend one" during interview
+2. If no decisions needed → skip to Phase 5
+3. If decisions found, present them as a table:
+   ```
+   Decisions to resolve before building:
+
+   | # | Decision | Needed By | Recommendation |
+   |---|----------|-----------|----------------|
+   | 1 | Database: SQLite vs Postgres | BP-03 | SQLite (MVP) |
+   | 2 | Deployment target | BP-06 | Railway |
+   ```
+4. Resolve one at a time:
+   - Present options with pros/cons
+   - Make a recommendation when appropriate
+   - User chooses → store in memory
+5. After all resolved: "All decisions resolved. Scaffolding the project."
+6. Hold resolved decisions in memory — written to `.dev/DECISIONS.md` during scaffolding
 
 **Phase 5: Scaffold** (implemented in BP-07)
 

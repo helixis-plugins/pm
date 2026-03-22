@@ -36,8 +36,9 @@ Present as table with options and which package needs it. Resolve one at a time 
 Decision tracking over project lifetime (that's `/pm:decide`).
 
 ## Status
-- **State:** not_started
-- **Progress:** 0/4 tasks
-- **Branch:** —
-- **Started:** —
+- **State:** in_progress
+- **Progress:** 4/4 tasks
+- **Branch:** bp/06-decision-points
+- **Started:** 2026-03-22
 - **Completed:** —
+- **Issue:** #11
