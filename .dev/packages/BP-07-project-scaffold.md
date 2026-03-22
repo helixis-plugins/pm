@@ -12,9 +12,9 @@ Populate the current folder with `.dev/` structure, packages, CLAUDE.md, git —
 autopilot
 
 ## Deliverables
-- [ ] commands/scaffold.md — full implementation
-- [ ] skills/scaffold-creation/SKILL.md — full implementation
-- [ ] commands/plan.md — auto-scaffold after approval
+- [x] commands/scaffold.md — full implementation
+- [x] skills/scaffold-creation/SKILL.md — full implementation
+- [x] commands/plan.md — auto-scaffold after approval
 
 ## Tasks
 1. Implement `.dev/` directory creation
@@ -76,9 +76,9 @@ To start building:
 Writing any project code.
 
 ## Status
-- **State:** in_progress
+- **State:** review
 - **Progress:** 14/14 tasks
 - **Branch:** bp/07-project-scaffold
 - **Started:** 2026-03-22
-- **Completed:** —
+- **Completed:** 2026-03-22
 - **Issue:** #13
