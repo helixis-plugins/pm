@@ -53,9 +53,9 @@ PARKED.md is maintained by PM across all interactions. When user mentions someth
 Build guidance (BP-09), troubleshooting (BP-10).
 
 ## Status
-- **State:** review
+- **State:** done
 - **Progress:** 7/7 tasks
-- **Branch:** bp/08-progress-tracking
+- **Branch:** merged
 - **Started:** 2026-03-22
 - **Completed:** 2026-03-22
 - **Issue:** #15
