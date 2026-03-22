@@ -1,11 +1,11 @@
 # Project Status
 
 ## Active Package
-- **Package:** BP-11 Decision Support (Standalone)
-- **Branch:** bp/11-decision-support
-- **Status:** in_progress
-- **Progress:** 5/5 tasks
-- **Mode:** autopilot
+- **Package:** None
+- **Branch:** main
+- **Status:** initialized
+- **Progress:** —
+- **Mode:** —
 
 ## Last Session
 - **Date:** 2026-03-22
@@ -27,7 +27,7 @@
 | BP-08 | Progress Tracking + Parked Items | done | 7/7 tasks |
 | BP-09 | Build Guidance | done | 6/6 tasks |
 | BP-10 | Troubleshooting | done | 5/5 tasks |
-| BP-11 | Decision Support (Standalone) | in_progress | 5/5 tasks |
+| BP-11 | Decision Support (Standalone) | review | 5/5 tasks |
 | BP-12 | Quality Assurance | not_started | 0/8 tasks |
 | BP-13 | Mid-Project Revision | not_started | 0/10 tasks |
 | BP-14 | Post-Completion Planning | not_started | 0/4 tasks |

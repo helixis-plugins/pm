@@ -10,8 +10,8 @@
 autopilot
 
 ## Deliverables
-- [ ] commands/decide.md — full implementation
-- [ ] skills/decision-support/SKILL.md — full implementation
+- [x] commands/decide.md — full implementation
+- [x] skills/decision-support/SKILL.md — full implementation
 
 ## Tasks
 1. Implement decision intake — "What do we need to decide?"
@@ -53,9 +53,9 @@ ID auto-increments by reading existing entries in DECISIONS.md.
 Decision dependencies, reversal tracking.
 
 ## Status
-- **State:** in_progress
+- **State:** review
 - **Progress:** 5/5 tasks
 - **Branch:** bp/11-decision-support
 - **Started:** 2026-03-22
-- **Completed:** —
+- **Completed:** 2026-03-22
 - **Issue:** #21
