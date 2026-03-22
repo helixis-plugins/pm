@@ -53,9 +53,9 @@ PM should ask clarifying questions if the problem description is too vague befor
 Automatically fixing code, running Builder.
 
 ## Status
-- **State:** review
+- **State:** done
 - **Progress:** 5/5 tasks
-- **Branch:** bp/10-troubleshooting
+- **Branch:** merged
 - **Started:** 2026-03-22
 - **Completed:** 2026-03-22
 - **Issue:** #19
