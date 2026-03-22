@@ -1,11 +1,11 @@
 # Project Status
 
 ## Active Package
-- **Package:** BP-01 Plugin Skeleton + Templates
-- **Branch:** bp/01-plugin-skeleton
-- **Status:** in_progress
-- **Progress:** 7/7 tasks
-- **Mode:** autopilot
+- **Package:** None
+- **Branch:** main
+- **Status:** initialized
+- **Progress:** —
+- **Mode:** —
 
 ## Last Session
 - **Date:** 2026-03-22
@@ -17,7 +17,7 @@
 
 | Package | Name | State | Progress |
 |---------|------|-------|----------|
-| BP-01 | Plugin Skeleton + Templates | in_progress | 7/7 tasks |
+| BP-01 | Plugin Skeleton + Templates | review | 7/7 tasks |
 | BP-02 | Project State Detection | not_started | 0/5 tasks |
 | BP-03 | Product Interview | not_started | 0/5 tasks |
 | BP-04 | Spec Writing | not_started | 0/4 tasks |
