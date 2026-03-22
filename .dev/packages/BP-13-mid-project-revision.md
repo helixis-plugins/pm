@@ -58,9 +58,9 @@ Rules:
 Modifying done packages, undoing builds.
 
 ## Status
-- **State:** review
+- **State:** done
 - **Progress:** 10/10 tasks
-- **Branch:** bp/13-mid-project-revision
+- **Branch:** merged
 - **Started:** 2026-03-22
 - **Completed:** 2026-03-22
 - **Issue:** #25

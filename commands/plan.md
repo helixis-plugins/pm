@@ -236,9 +236,115 @@ Some packages are done or in progress. Enter revision mode.
 - After any revision, verify no orphaned dependencies (every dependency must point to an existing package)
 - After any revision, verify no circular dependencies
 
-### State: Complete (implemented in BP-14)
+### State: Complete
 
-All packages are done.
+All packages are done. Present the completion summary and offer three options.
 
-1. Present completion summary
-2. Offer three options: v2 planning, template saving, post-mortem
+1. Present:
+   ```
+   All [N] packages complete. [Project Name] is built.
+
+   Options:
+   1. Plan v2 — new features, next phase
+   2. Save as template — reuse this structure for future projects
+   3. Post-mortem — review decisions, capture lessons learned
+   ```
+2. Wait for the user to choose
+
+#### Option 1: Plan v2
+
+Start a new planning cycle for the next phase:
+
+1. Read the existing spec from `.dev/PROJECT.md`
+2. Present it: "Here's the current spec. What do you want to add or change for v2?"
+3. Run a focused interview:
+   - "What new features for v2?"
+   - "Any changes to existing features?"
+   - "Same tech stack, or changes?"
+   - "New constraints?"
+4. Generate new packages numbered from where v1 left off
+   - If v1 ended at BP-08, v2 starts at BP-09
+   - New integration test at the end
+5. Do NOT modify any existing `done` packages
+6. Write new package files to `.dev/packages/`
+7. Update STATUS.md with the new packages
+8. Update PROJECT.md spec if the user changed it
+9. Commit: `[PM] v2 planned: [description]`
+
+#### Option 2: Save as template
+
+Save the project structure as a reusable template:
+
+1. Determine template name — ask user or derive from project name
+2. Create `~/.dev-templates/[name]/` directory (create `~/.dev-templates/` if it doesn't exist)
+3. Copy `.dev/` structure to the template directory:
+   - Copy STANDARDS.md as-is (conventions are reusable)
+   - Copy LEARNING.md template (empty)
+   - Copy PARKED.md template (empty)
+   - Copy package files with content stripped:
+     - Keep the structure (headings, sections)
+     - Replace goal, deliverables, tasks, acceptance criteria with `[TODO]`
+     - Keep the format intact
+   - Do NOT copy PROJECT.md (project-specific)
+   - Do NOT copy DECISIONS.md (project-specific)
+   - Do NOT copy STATUS.md (will be regenerated)
+4. Write a `template.json` in the template directory:
+   ```json
+   {
+     "name": "[template name]",
+     "source_project": "[project name]",
+     "created": "[today's date]",
+     "package_count": [N],
+     "tech_stack": "[stack from project]"
+   }
+   ```
+5. Confirm: "Template saved to ~/.dev-templates/[name]/. Use it with `/pm:plan` in a new project."
+
+#### Option 3: Post-mortem
+
+Review the project and capture lessons learned:
+
+1. Read DECISIONS.md — summarize all decisions made
+2. Read all package files — note any that were revised, split, or merged
+3. Read PARKED.md — note any items that were never addressed
+4. Present the summary:
+   ```
+   Post-mortem: [Project Name]
+
+   Packages: [N] completed
+   Decisions: [N] made
+   Revisions: [list any plan changes]
+   Parked items: [N] ([list titles])
+
+   Key decisions:
+   - D-001: [title] — [decision]
+   - D-002: [title] — [decision]
+   ```
+5. Ask: "What went well?"
+6. Ask: "What would you do differently?"
+7. Ask: "Any lessons to capture for future projects?"
+8. Write `.dev/POSTMORTEM.md`:
+   ```markdown
+   # Post-Mortem: [Project Name]
+
+   ## Summary
+   - Packages completed: [N]
+   - Decisions made: [N]
+   - Date completed: [today]
+
+   ## Key Decisions
+   [list from DECISIONS.md]
+
+   ## Plan Revisions
+   [any changes made during the build]
+
+   ## What Went Well
+   [user's response]
+
+   ## What To Improve
+   [user's response]
+
+   ## Lessons Learned
+   [user's response]
+   ```
+9. Commit: `[PM] Post-mortem completed`

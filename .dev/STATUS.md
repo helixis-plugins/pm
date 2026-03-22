@@ -1,11 +1,11 @@
 # Project Status
 
 ## Active Package
-- **Package:** None
-- **Branch:** main
-- **Status:** initialized
-- **Progress:** —
-- **Mode:** —
+- **Package:** BP-14 Post-Completion Planning
+- **Branch:** bp/14-post-completion
+- **Status:** in_progress
+- **Progress:** 4/4 tasks
+- **Mode:** autopilot
 
 ## Last Session
 - **Date:** 2026-03-22
@@ -29,6 +29,6 @@
 | BP-10 | Troubleshooting | done | 5/5 tasks |
 | BP-11 | Decision Support (Standalone) | done | 5/5 tasks |
 | BP-12 | Quality Assurance | done | 8/8 tasks |
-| BP-13 | Mid-Project Revision | review | 10/10 tasks |
-| BP-14 | Post-Completion Planning | not_started | 0/4 tasks |
+| BP-13 | Mid-Project Revision | done | 10/10 tasks |
+| BP-14 | Post-Completion Planning | in_progress | 4/4 tasks |
 | BP-15 | Integration Test | not_started | 0/11 tests |
