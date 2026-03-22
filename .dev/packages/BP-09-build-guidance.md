@@ -11,8 +11,8 @@
 autopilot
 
 ## Deliverables
-- [ ] commands/guide.md — full implementation
-- [ ] skills/build-guidance/SKILL.md — full implementation
+- [x] commands/guide.md — full implementation
+- [x] skills/build-guidance/SKILL.md — full implementation
 
 ## Tasks
 1. Implement next-package detection from STATUS.md
@@ -51,9 +51,9 @@ If a package is already in progress:
 Actually launching Builder, writing code.
 
 ## Status
-- **State:** in_progress
+- **State:** review
 - **Progress:** 6/6 tasks
 - **Branch:** bp/09-build-guidance
 - **Started:** 2026-03-22
-- **Completed:** —
+- **Completed:** 2026-03-22
 - **Issue:** #17
