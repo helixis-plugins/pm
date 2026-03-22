@@ -72,7 +72,7 @@ For each approved package:
 
 ### Step 4: Write STATUS.md
 
-Generate from `templates/STATUS.md`:
+Copy `templates/STATUS.md` VERBATIM and only replace the placeholder variables. Do NOT simplify, restructure, or omit any sections. The dev plugin depends on this exact format. Template:
 
 ```markdown
 # Project Status
