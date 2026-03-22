@@ -10,8 +10,8 @@ After spec approval, PM breaks it into build packages matching the `dev` plugin'
 autopilot
 
 ## Deliverables
-- [ ] commands/plan.md — package generation phase added after spec
-- [ ] skills/package-generation/SKILL.md — full implementation
+- [x] commands/plan.md — package generation phase added after spec
+- [x] skills/package-generation/SKILL.md — full implementation
 
 ## Tasks
 1. Implement spec analysis — identify features to group into packages
@@ -51,9 +51,9 @@ Package format matches `dev` plugin exactly. File naming: `BP-XX-short-name.md`.
 Creating files on disk, decision resolution.
 
 ## Status
-- **State:** in_progress
+- **State:** review
 - **Progress:** 6/6 tasks
 - **Branch:** bp/05-package-generation
 - **Started:** 2026-03-22
-- **Completed:** —
+- **Completed:** 2026-03-22
 - **Issue:** #9

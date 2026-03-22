@@ -1,11 +1,11 @@
 # Project Status
 
 ## Active Package
-- **Package:** BP-05 Build Package Generation
-- **Branch:** bp/05-package-generation
-- **Status:** in_progress
-- **Progress:** 6/6 tasks
-- **Mode:** autopilot
+- **Package:** None
+- **Branch:** main
+- **Status:** initialized
+- **Progress:** —
+- **Mode:** —
 
 ## Last Session
 - **Date:** 2026-03-22
@@ -21,7 +21,7 @@
 | BP-02 | Project State Detection | done | 5/5 tasks |
 | BP-03 | Product Interview | done | 5/5 tasks |
 | BP-04 | Spec Writing | done | 4/4 tasks |
-| BP-05 | Build Package Generation | in_progress | 6/6 tasks |
+| BP-05 | Build Package Generation | review | 6/6 tasks |
 | BP-06 | Decision Points | not_started | 0/4 tasks |
 | BP-07 | Project Scaffold | not_started | 0/14 tasks |
 | BP-08 | Progress Tracking + Parked Items | not_started | 0/7 tasks |
