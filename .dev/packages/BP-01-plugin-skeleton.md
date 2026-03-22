@@ -102,8 +102,9 @@ All other templates follow the formats specified in the product spec.
 Any real functionality. Shell only.
 
 ## Status
-- **State:** not_started
-- **Progress:** 0/7 tasks
-- **Branch:** —
-- **Started:** —
+- **State:** in_progress
+- **Progress:** 7/7 tasks
+- **Branch:** bp/01-plugin-skeleton
+- **Started:** 2026-03-22
 - **Completed:** —
+- **Issue:** #1
