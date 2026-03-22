@@ -47,9 +47,9 @@ Post-mortem: summarizes decisions from DECISIONS.md, asks what went well / what 
 Template marketplace, automated retrospectives.
 
 ## Status
-- **State:** review
+- **State:** done
 - **Progress:** 4/4 tasks
-- **Branch:** bp/14-post-completion
+- **Branch:** merged
 - **Started:** 2026-03-22
 - **Completed:** 2026-03-22
 - **Issue:** #27
