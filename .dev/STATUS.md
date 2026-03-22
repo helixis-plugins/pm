@@ -1,11 +1,11 @@
 # Project Status
 
 ## Active Package
-- **Package:** BP-12 Quality Assurance
-- **Branch:** bp/12-quality-assurance
-- **Status:** in_progress
-- **Progress:** 8/8 tasks
-- **Mode:** autopilot
+- **Package:** None
+- **Branch:** main
+- **Status:** initialized
+- **Progress:** —
+- **Mode:** —
 
 ## Last Session
 - **Date:** 2026-03-22
@@ -28,7 +28,7 @@
 | BP-09 | Build Guidance | done | 6/6 tasks |
 | BP-10 | Troubleshooting | done | 5/5 tasks |
 | BP-11 | Decision Support (Standalone) | done | 5/5 tasks |
-| BP-12 | Quality Assurance | in_progress | 8/8 tasks |
+| BP-12 | Quality Assurance | review | 8/8 tasks |
 | BP-13 | Mid-Project Revision | not_started | 0/10 tasks |
 | BP-14 | Post-Completion Planning | not_started | 0/4 tasks |
 | BP-15 | Integration Test | not_started | 0/11 tests |

@@ -10,8 +10,8 @@
 autopilot
 
 ## Deliverables
-- [ ] commands/review.md — full implementation
-- [ ] skills/quality-assurance/SKILL.md — full implementation
+- [x] commands/review.md — full implementation
+- [x] skills/quality-assurance/SKILL.md — full implementation
 
 ## Tasks
 1. Implement plugin validation check (if project is a plugin)
@@ -55,9 +55,9 @@ Checks that don't apply are skipped with "(N/A)" — not reported as failures.
 Fixing issues automatically — PM reports, user/Builder fixes.
 
 ## Status
-- **State:** in_progress
+- **State:** review
 - **Progress:** 8/8 tasks
 - **Branch:** bp/12-quality-assurance
 - **Started:** 2026-03-22
-- **Completed:** —
+- **Completed:** 2026-03-22
 - **Issue:** #23
