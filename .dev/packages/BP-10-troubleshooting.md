@@ -10,8 +10,8 @@
 autopilot
 
 ## Deliverables
-- [ ] commands/fix.md — full implementation
-- [ ] skills/troubleshooting/SKILL.md — full implementation
+- [x] commands/fix.md — full implementation
+- [x] skills/troubleshooting/SKILL.md — full implementation
 
 ## Tasks
 1. Implement problem intake — ask what's happening, accept error output
@@ -53,9 +53,9 @@ PM should ask clarifying questions if the problem description is too vague befor
 Automatically fixing code, running Builder.
 
 ## Status
-- **State:** in_progress
+- **State:** review
 - **Progress:** 5/5 tasks
 - **Branch:** bp/10-troubleshooting
 - **Started:** 2026-03-22
-- **Completed:** —
+- **Completed:** 2026-03-22
 - **Issue:** #19
