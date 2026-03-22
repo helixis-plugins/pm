@@ -1,11 +1,11 @@
 # Project Status
 
 ## Active Package
-- **Package:** None
-- **Branch:** main
-- **Status:** initialized
-- **Progress:** —
-- **Mode:** —
+- **Package:** BP-04 Spec Writing
+- **Branch:** bp/04-spec-writing
+- **Status:** in_progress
+- **Progress:** 4/4 tasks
+- **Mode:** autopilot
 
 ## Last Session
 - **Date:** 2026-03-22
@@ -19,8 +19,8 @@
 |---------|------|-------|----------|
 | BP-01 | Plugin Skeleton + Templates | done | 7/7 tasks |
 | BP-02 | Project State Detection | done | 5/5 tasks |
-| BP-03 | Product Interview | review | 5/5 tasks |
-| BP-04 | Spec Writing | not_started | 0/4 tasks |
+| BP-03 | Product Interview | done | 5/5 tasks |
+| BP-04 | Spec Writing | in_progress | 4/4 tasks |
 | BP-05 | Build Package Generation | not_started | 0/6 tasks |
 | BP-06 | Decision Points | not_started | 0/4 tasks |
 | BP-07 | Project Scaffold | not_started | 0/14 tasks |

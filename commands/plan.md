@@ -38,9 +38,20 @@ Use the **product-interview** skill to run the structured interview.
 6. Present the interview summary
 7. User confirms or corrects — re-present after corrections until approved
 
-**Phase 2: Spec Writing** (implemented in BP-04)
+**Phase 2: Spec Writing**
 
-After interview approval, hand off to the **spec-writing** skill.
+After interview approval, use the **spec-writing** skill:
+
+1. Generate the full product spec from interview answers using `templates/product-spec.md`
+2. Fill every section — no empty sections, no placeholders, no invented content
+3. Technical Architecture must name specific tools (not "modern framework")
+4. "What This Does NOT Do" section is mandatory — minimum 3 items
+5. Present the complete spec in conversation
+6. Ask: "Review the spec above. Want to change anything, or does it look good?"
+7. If user requests changes → revise, re-present the full spec, ask again
+8. Repeat until user approves
+9. On approval: "Spec approved. Moving to package generation."
+10. Hold approved spec in memory — it becomes `.dev/PROJECT.md` during scaffolding
 
 **Phase 3: Package Generation** (implemented in BP-05)
 

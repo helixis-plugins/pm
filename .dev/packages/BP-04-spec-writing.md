@@ -39,8 +39,9 @@ Spec held in memory — becomes `.dev/PROJECT.md` during scaffolding.
 Packages, scaffolding, decisions.
 
 ## Status
-- **State:** not_started
-- **Progress:** 0/4 tasks
-- **Branch:** —
-- **Started:** —
+- **State:** in_progress
+- **Progress:** 4/4 tasks
+- **Branch:** bp/04-spec-writing
+- **Started:** 2026-03-22
 - **Completed:** —
+- **Issue:** #7

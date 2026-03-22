@@ -59,9 +59,9 @@ Answers held in conversation memory — nothing written to disk yet.
 Spec writing, packages, scaffolding.
 
 ## Status
-- **State:** review
+- **State:** done
 - **Progress:** 5/5 tasks
-- **Branch:** bp/03-product-interview
+- **Branch:** merged
 - **Started:** 2026-03-22
 - **Completed:** 2026-03-22
 - **Issue:** #5
