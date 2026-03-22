@@ -10,8 +10,8 @@ After interview confirmation, PM writes a full product spec and presents it for 
 autopilot
 
 ## Deliverables
-- [ ] commands/plan.md — spec writing phase added after interview
-- [ ] skills/spec-writing/SKILL.md — full implementation
+- [x] commands/plan.md — spec writing phase added after interview
+- [x] skills/spec-writing/SKILL.md — full implementation
 
 ## Tasks
 1. Implement spec generation from interview answers
@@ -39,9 +39,9 @@ Spec held in memory — becomes `.dev/PROJECT.md` during scaffolding.
 Packages, scaffolding, decisions.
 
 ## Status
-- **State:** in_progress
+- **State:** review
 - **Progress:** 4/4 tasks
 - **Branch:** bp/04-spec-writing
 - **Started:** 2026-03-22
-- **Completed:** —
+- **Completed:** 2026-03-22
 - **Issue:** #7
