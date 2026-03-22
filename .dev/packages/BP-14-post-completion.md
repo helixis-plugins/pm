@@ -11,7 +11,7 @@ When all packages are done, PM offers v2 planning, template saving, or post-mort
 autopilot
 
 ## Deliverables
-- [ ] commands/plan.md — post-completion mode (triggered by state detection for complete)
+- [x] commands/plan.md — post-completion mode (triggered by state detection for complete)
 
 ## Tasks
 1. Implement complete state detection and option presentation
@@ -47,9 +47,9 @@ Post-mortem: summarizes decisions from DECISIONS.md, asks what went well / what 
 Template marketplace, automated retrospectives.
 
 ## Status
-- **State:** in_progress
+- **State:** review
 - **Progress:** 4/4 tasks
 - **Branch:** bp/14-post-completion
 - **Started:** 2026-03-22
-- **Completed:** —
+- **Completed:** 2026-03-22
 - **Issue:** #27
