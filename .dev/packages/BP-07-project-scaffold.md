@@ -76,8 +76,9 @@ To start building:
 Writing any project code.
 
 ## Status
-- **State:** not_started
-- **Progress:** 0/14 tasks
-- **Branch:** —
-- **Started:** —
+- **State:** in_progress
+- **Progress:** 14/14 tasks
+- **Branch:** bp/07-project-scaffold
+- **Started:** 2026-03-22
 - **Completed:** —
+- **Issue:** #13

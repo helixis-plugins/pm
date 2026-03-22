@@ -103,9 +103,32 @@ After packages are approved, scan the spec and packages for unresolved decisions
 5. After all resolved: "All decisions resolved. Scaffolding the project."
 6. Hold resolved decisions in memory — written to `.dev/DECISIONS.md` during scaffolding
 
-**Phase 5: Scaffold** (implemented in BP-07)
+**Phase 5: Scaffold**
 
-After all decisions resolved, scaffold the project using the **scaffold-creation** skill.
+After all decisions resolved, use the **scaffold-creation** skill:
+
+1. Check for existing `.dev/` — warn and ask confirmation if it exists
+2. Create `.dev/` with `packages/` subdirectory
+3. Write PROJECT.md from approved spec
+4. Write all package files to `.dev/packages/`
+5. Write STATUS.md with package overview table
+6. Write DECISIONS.md with resolved decisions
+7. Write STANDARDS.md based on tech stack
+8. Write LEARNING.md and PARKED.md from templates
+9. Write CLAUDE.md with session start protocol (append if exists)
+10. Write README.md with project info
+11. Initialize git, stage all files, commit
+12. Create GitHub repo if `gh` available (silent, optional)
+13. Present handoff confirmation:
+    ```
+    Project ready: [Name]
+    Location: [pwd]
+    Packages: [N] ([M] MVP + [K] post-MVP)
+    First: BP-01 [name]
+
+    To start building:
+      builder dev [project-name]
+    ```
 
 ### State: Planned
 
