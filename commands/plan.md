@@ -136,16 +136,105 @@ All packages exist but none have started.
 
 1. Present the current plan: project name, package count, package list
 2. Ask: "Want to revise the plan, or start building?"
-3. If revise → enter revision mode (implemented in BP-13)
+3. If revise → enter revision mode (see below)
 4. If build → suggest: "Run `/dev:package start BP-01` to begin."
 
-### State: Mid-build (implemented in BP-13)
+### State: Mid-build
 
-Some packages are done or in progress.
+Some packages are done or in progress. Enter revision mode.
 
-1. Present current state (done / in-progress / pending)
-2. Ask: "What do you want to change?"
-3. Enter revision mode
+1. Read all package files and categorize:
+   - **Done** — state `done` (protected, cannot modify)
+   - **In Progress** — state `in_progress` (warn before modifying)
+   - **Pending** — state `not_started` (freely modifiable)
+2. Read PARKED.md for items that could become packages
+3. Present the current state:
+   ```
+   Project: [Name]
+
+   Done (locked):
+     BP-01 Foundation ✓
+     BP-02 Auth ✓
+
+   In Progress:
+     BP-03 Dashboard (3/6 tasks)
+
+   Pending (editable):
+     BP-04 Email Notifications
+     BP-05 Integration Test
+
+   Parked: [count] items
+   ```
+4. Ask: "What do you want to change?"
+5. Handle the requested revision (see Revision Operations below)
+6. After each change:
+   - Refresh STATUS.md package overview table
+   - Update any affected package files
+   - Commit: `[PM] Revised: [description of change]`
+7. Ask: "Anything else to change?" — repeat until user is done
+
+#### Revision Operations
+
+**Add a package:**
+1. Ask what the new package should contain
+2. Determine the correct position in the dependency chain
+3. Generate a full package spec using the **package-generation** skill format
+4. Assign the next available BP number
+5. Write the package file to `.dev/packages/`
+6. Update STATUS.md
+
+**Remove a package:**
+1. Verify the package state is `not_started` — refuse if `done`, warn if `in_progress`
+2. Check if other packages depend on it
+3. If dependencies exist → reassign them to the removed package's dependencies
+4. Delete the package file from `.dev/packages/`
+5. Update STATUS.md
+
+**Split a package:**
+1. Verify state is `not_started` or `in_progress` (warn for in_progress)
+2. Ask how to divide the deliverables and tasks
+3. Create two new packages from the original
+4. Second part depends on first part
+5. Reassign dependencies from the original to the appropriate new package
+6. Remove the original, write two new files
+7. Renumber subsequent packages if needed
+8. Update STATUS.md
+
+**Merge two packages:**
+1. Verify both are `not_started` — refuse if either is `done`
+2. Combine deliverables, tasks, and acceptance criteria
+3. Use the broader goal
+4. Dependencies = union of both packages' dependencies
+5. Remove the second package file
+6. Update the first package file with merged content
+7. Reassign any packages that depended on the second to depend on the first
+8. Update STATUS.md
+
+**Re-plan pending packages:**
+1. Collect all `not_started` packages
+2. Present them and ask what should change
+3. Regenerate using the **package-generation** skill
+4. Preserve all `done` packages unchanged
+5. Write updated package files
+6. Update STATUS.md
+
+**Promote parked item to package:**
+1. Read PARKED.md, list items
+2. User picks an item
+3. Generate a package spec for it
+4. Assign the next available BP number
+5. Insert at the correct dependency position
+6. Write the package file
+7. Remove the item from PARKED.md
+8. Update STATUS.md
+
+#### Revision Rules
+
+- State `done` → **NEVER** modify — "This package is complete and locked."
+- State `in_progress` → **WARN** before modifying — "This package is in progress. Changing it may affect current work. Continue?"
+- State `not_started` → modify freely
+- After any revision, verify no orphaned dependencies (every dependency must point to an existing package)
+- After any revision, verify no circular dependencies
 
 ### State: Complete (implemented in BP-14)
 
