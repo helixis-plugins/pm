@@ -101,9 +101,9 @@ TEST 11: Parked Items
 - Any test fails → identify which BP needs a fix, patch, re-test
 
 ## Status
-- **State:** in_progress
-- **Progress:** 1/11 tests
+- **State:** review
+- **Progress:** 11/11 tests
 - **Branch:** bp/15-integration-test
 - **Started:** 2026-03-22
-- **Completed:** —
+- **Completed:** 2026-03-22
 - **Issue:** #29

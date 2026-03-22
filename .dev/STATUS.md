@@ -1,11 +1,11 @@
 # Project Status
 
 ## Active Package
-- **Package:** BP-15 Integration Test
-- **Branch:** bp/15-integration-test
-- **Status:** in_progress
-- **Progress:** 1/11 tests
-- **Mode:** pair
+- **Package:** None
+- **Branch:** main
+- **Status:** initialized
+- **Progress:** —
+- **Mode:** —
 
 ## Last Session
 - **Date:** 2026-03-22
@@ -31,4 +31,4 @@
 | BP-12 | Quality Assurance | done | 8/8 tasks |
 | BP-13 | Mid-Project Revision | done | 10/10 tasks |
 | BP-14 | Post-Completion Planning | done | 4/4 tasks |
-| BP-15 | Integration Test | in_progress | 1/11 tests |
+| BP-15 | Integration Test | review | 11/11 tests |
