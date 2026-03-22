@@ -102,9 +102,9 @@ All other templates follow the formats specified in the product spec.
 Any real functionality. Shell only.
 
 ## Status
-- **State:** review
+- **State:** done
 - **Progress:** 7/7 tasks
-- **Branch:** bp/01-plugin-skeleton
+- **Branch:** merged
 - **Started:** 2026-03-22
 - **Completed:** 2026-03-22
 - **Issue:** #1
