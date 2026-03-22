@@ -1,8 +1,13 @@
 {
   "name": "pm",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Your project lead. Plans projects, guides builds, troubleshoots problems, makes decisions, tracks progress, and ensures quality — everything except writing the code.",
   "author": {
-    "name": "Helixis"
-  }
+    "name": "Helixis",
+    "url": "https://github.com/helixis-plugins"
+  },
+  "homepage": "https://github.com/helixis-plugins/pm",
+  "repository": "https://github.com/helixis-plugins/pm",
+  "license": "MIT",
+  "keywords": ["project-management", "planning", "build-packages", "troubleshooting", "quality-assurance"]
 }
