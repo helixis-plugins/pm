@@ -53,8 +53,9 @@ PM should ask clarifying questions if the problem description is too vague befor
 Automatically fixing code, running Builder.
 
 ## Status
-- **State:** not_started
-- **Progress:** 0/5 tasks
-- **Branch:** —
-- **Started:** —
+- **State:** in_progress
+- **Progress:** 5/5 tasks
+- **Branch:** bp/10-troubleshooting
+- **Started:** 2026-03-22
 - **Completed:** —
+- **Issue:** #19

@@ -51,9 +51,9 @@ If a package is already in progress:
 Actually launching Builder, writing code.
 
 ## Status
-- **State:** review
+- **State:** done
 - **Progress:** 6/6 tasks
-- **Branch:** bp/09-build-guidance
+- **Branch:** merged
 - **Started:** 2026-03-22
 - **Completed:** 2026-03-22
 - **Issue:** #17
