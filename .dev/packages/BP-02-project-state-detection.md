@@ -46,9 +46,9 @@ Edge cases:
 The actual flows for each state — those are separate packages.
 
 ## Status
-- **State:** review
+- **State:** done
 - **Progress:** 5/5 tasks
-- **Branch:** bp/02-project-state-detection
+- **Branch:** merged
 - **Started:** 2026-03-22
 - **Completed:** 2026-03-22
 - **Issue:** #3
