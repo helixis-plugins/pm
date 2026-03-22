@@ -10,8 +10,8 @@
 autopilot
 
 ## Deliverables
-- [ ] commands/status.md — full implementation
-- [ ] skills/progress-tracking/SKILL.md — full implementation
+- [x] commands/status.md — full implementation
+- [x] skills/progress-tracking/SKILL.md — full implementation
 
 ## Tasks
 1. Implement STATUS.md parsing for active package, progress, last session
@@ -53,9 +53,9 @@ PARKED.md is maintained by PM across all interactions. When user mentions someth
 Build guidance (BP-09), troubleshooting (BP-10).
 
 ## Status
-- **State:** in_progress
+- **State:** review
 - **Progress:** 7/7 tasks
 - **Branch:** bp/08-progress-tracking
 - **Started:** 2026-03-22
-- **Completed:** —
+- **Completed:** 2026-03-22
 - **Issue:** #15
