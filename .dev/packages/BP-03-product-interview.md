@@ -10,8 +10,8 @@
 autopilot
 
 ## Deliverables
-- [ ] commands/plan.md — interview phase (replaces placeholder)
-- [ ] skills/product-interview/SKILL.md — full implementation
+- [x] commands/plan.md — interview phase (replaces placeholder)
+- [x] skills/product-interview/SKILL.md — full implementation
 
 ## Tasks
 1. Implement 6 core interview questions in plan.md
@@ -59,9 +59,9 @@ Answers held in conversation memory — nothing written to disk yet.
 Spec writing, packages, scaffolding.
 
 ## Status
-- **State:** in_progress
+- **State:** review
 - **Progress:** 5/5 tasks
 - **Branch:** bp/03-product-interview
 - **Started:** 2026-03-22
-- **Completed:** —
+- **Completed:** 2026-03-22
 - **Issue:** #5
