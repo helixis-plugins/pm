@@ -1,11 +1,11 @@
 # Project Status
 
 ## Active Package
-- **Package:** BP-13 Mid-Project Revision
-- **Branch:** bp/13-mid-project-revision
-- **Status:** in_progress
-- **Progress:** 10/10 tasks
-- **Mode:** autopilot
+- **Package:** None
+- **Branch:** main
+- **Status:** initialized
+- **Progress:** —
+- **Mode:** —
 
 ## Last Session
 - **Date:** 2026-03-22
@@ -29,6 +29,6 @@
 | BP-10 | Troubleshooting | done | 5/5 tasks |
 | BP-11 | Decision Support (Standalone) | done | 5/5 tasks |
 | BP-12 | Quality Assurance | done | 8/8 tasks |
-| BP-13 | Mid-Project Revision | in_progress | 10/10 tasks |
+| BP-13 | Mid-Project Revision | review | 10/10 tasks |
 | BP-14 | Post-Completion Planning | not_started | 0/4 tasks |
 | BP-15 | Integration Test | not_started | 0/11 tests |

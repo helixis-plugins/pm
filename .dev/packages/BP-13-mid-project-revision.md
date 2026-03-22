@@ -12,7 +12,7 @@ When PM detects mid-build state, it lets the user modify the plan — add, remov
 autopilot
 
 ## Deliverables
-- [ ] commands/plan.md — revision mode (triggered by state detection for mid-build)
+- [x] commands/plan.md — revision mode (triggered by state detection for mid-build)
 
 ## Tasks
 1. Implement state reading and presentation (done/in-progress/pending)
@@ -58,9 +58,9 @@ Rules:
 Modifying done packages, undoing builds.
 
 ## Status
-- **State:** in_progress
+- **State:** review
 - **Progress:** 10/10 tasks
 - **Branch:** bp/13-mid-project-revision
 - **Started:** 2026-03-22
-- **Completed:** —
+- **Completed:** 2026-03-22
 - **Issue:** #25
