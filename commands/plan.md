@@ -53,9 +53,26 @@ After interview approval, use the **spec-writing** skill:
 9. On approval: "Spec approved. Moving to package generation."
 10. Hold approved spec in memory — it becomes `.dev/PROJECT.md` during scaffolding
 
-**Phase 3: Package Generation** (implemented in BP-05)
+**Phase 3: Package Generation**
 
-After spec approval, hand off to the **package-generation** skill.
+After spec approval, use the **package-generation** skill:
+
+1. Analyze spec capabilities → group into packages
+2. Always start with a Foundation/Skeleton package (BP-01)
+3. Always end MVP with an Integration Test package
+4. Separate post-MVP packages clearly
+5. Order by dependencies — no circular references
+6. Generate a visual package map showing the dependency tree
+7. Generate each package from `templates/build-package.md` with:
+   - Specific file paths in deliverables
+   - Auto-generated tasks (one per deliverable + setup/testing)
+   - Testable acceptance criteria
+   - Recommended involvement mode
+8. Present the map + package summaries
+9. User can add/remove/split/merge packages → revise and re-present
+10. Repeat until user approves
+11. On approval: "Packages approved. [N] MVP + [M] post-MVP."
+12. Hold packages in memory — written to `.dev/packages/` during scaffolding
 
 **Phase 4: Decision Points** (implemented in BP-06)
 
