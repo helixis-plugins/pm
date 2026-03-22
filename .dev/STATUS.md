@@ -1,11 +1,11 @@
 # Project Status
 
 ## Active Package
-- **Package:** None
-- **Branch:** main
-- **Status:** initialized
-- **Progress:** —
-- **Mode:** —
+- **Package:** BP-08 Progress Tracking + Parked Items
+- **Branch:** bp/08-progress-tracking
+- **Status:** in_progress
+- **Progress:** 7/7 tasks
+- **Mode:** autopilot
 
 ## Last Session
 - **Date:** 2026-03-22
@@ -23,8 +23,8 @@
 | BP-04 | Spec Writing | done | 4/4 tasks |
 | BP-05 | Build Package Generation | done | 6/6 tasks |
 | BP-06 | Decision Points | done | 4/4 tasks |
-| BP-07 | Project Scaffold | review | 14/14 tasks |
-| BP-08 | Progress Tracking + Parked Items | not_started | 0/7 tasks |
+| BP-07 | Project Scaffold | done | 14/14 tasks |
+| BP-08 | Progress Tracking + Parked Items | in_progress | 7/7 tasks |
 | BP-09 | Build Guidance | not_started | 0/6 tasks |
 | BP-10 | Troubleshooting | not_started | 0/5 tasks |
 | BP-11 | Decision Support (Standalone) | not_started | 0/5 tasks |
