@@ -10,7 +10,7 @@ PM can detect whether the current folder is empty, planned, mid-build, or comple
 autopilot
 
 ## Deliverables
-- [ ] skills/project-state/SKILL.md — full implementation
+- [x] skills/project-state/SKILL.md — full implementation
 
 ## Tasks
 1. Implement four-state detection logic (empty, planned, mid-build, complete)
@@ -46,9 +46,9 @@ Edge cases:
 The actual flows for each state — those are separate packages.
 
 ## Status
-- **State:** in_progress
+- **State:** review
 - **Progress:** 5/5 tasks
 - **Branch:** bp/02-project-state-detection
 - **Started:** 2026-03-22
-- **Completed:** —
+- **Completed:** 2026-03-22
 - **Issue:** #3

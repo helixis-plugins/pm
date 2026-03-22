@@ -1,11 +1,11 @@
 # Project Status
 
 ## Active Package
-- **Package:** BP-02 Project State Detection
-- **Branch:** bp/02-project-state-detection
-- **Status:** in_progress
-- **Progress:** 5/5 tasks
-- **Mode:** autopilot
+- **Package:** None
+- **Branch:** main
+- **Status:** initialized
+- **Progress:** —
+- **Mode:** —
 
 ## Last Session
 - **Date:** 2026-03-22
@@ -18,7 +18,7 @@
 | Package | Name | State | Progress |
 |---------|------|-------|----------|
 | BP-01 | Plugin Skeleton + Templates | done | 7/7 tasks |
-| BP-02 | Project State Detection | in_progress | 5/5 tasks |
+| BP-02 | Project State Detection | review | 5/5 tasks |
 | BP-03 | Product Interview | not_started | 0/5 tasks |
 | BP-04 | Spec Writing | not_started | 0/4 tasks |
 | BP-05 | Build Package Generation | not_started | 0/6 tasks |
