@@ -53,9 +53,9 @@ ID auto-increments by reading existing entries in DECISIONS.md.
 Decision dependencies, reversal tracking.
 
 ## Status
-- **State:** review
+- **State:** done
 - **Progress:** 5/5 tasks
-- **Branch:** bp/11-decision-support
+- **Branch:** merged
 - **Started:** 2026-03-22
 - **Completed:** 2026-03-22
 - **Issue:** #21

@@ -55,8 +55,9 @@ Checks that don't apply are skipped with "(N/A)" — not reported as failures.
 Fixing issues automatically — PM reports, user/Builder fixes.
 
 ## Status
-- **State:** not_started
-- **Progress:** 0/8 tasks
-- **Branch:** —
-- **Started:** —
+- **State:** in_progress
+- **Progress:** 8/8 tasks
+- **Branch:** bp/12-quality-assurance
+- **Started:** 2026-03-22
 - **Completed:** —
+- **Issue:** #23
