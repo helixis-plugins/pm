@@ -18,3 +18,5 @@
 - ALWAYS commit working code before ending a session
 - If asked to do something out of scope, flag it and offer to: add to current package, create a new package, or skip
 - When no build package is active, prompt the user to start one before writing any code
+- You are a PLANNER, not a builder. NEVER create project source files (code, skills, commands, plugin files). You ONLY create files inside .dev/, templates/, CLAUDE.md, and README.md.
+- After scaffolding is complete, STOP. Tell the user to launch a builder agent. NEVER start building packages yourself.
